@@ -8,6 +8,10 @@
     height: 400px;
 }
 
+:root {
+    --green: #27C97B;
+}
+
 .banner-descricao {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,7 @@
     margin-top: 20px;
     font-size: 18pt;
     text-align: center;
-    color: #27C97B;
+    color: var(--green);
 }
 
 .descricao-texto p {
@@ -54,7 +58,7 @@
     margin-top: 20px;
     font-size: 18pt;
     text-align: center;
-    color: #27C97B; 
+    color: var(--green);
     padding-bottom: 20px; 
 }
 
@@ -73,6 +77,7 @@
 
 .descricao-imagem img {
     width: 70%;
+    border-radius: 10px;
 }
 
 .descricao-imagem2 {
@@ -83,34 +88,12 @@
     margin: 20px 0;
 }
 
+.image2 {
+    border-radius: 10px;
+}
+
 .descricao-imagem2 img {
     width: 70%;
-}
-
-.btn-principal {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 40%;
-    background-color: #5181DD;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.btn-principal a {
-    width: 100%;
-    padding: 20px 0;
-    text-decoration: none;
-    color: white;
-}
-
-.btn-principal :hover {
-    color: #5181DD;
-    background-color: white;
-    box-shadow: inset 0 0 0 1.5px #5181DD;
-    border-radius: 10px;
 }
 
 .footer-name {
