@@ -1,0 +1,194 @@
+/* Banner principal */
+.banner {
+    width: 100%;
+    text-align: center;
+    background-color: #27C97B;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.descricao-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.descricao-principal p {
+    text-align: center;
+}
+
+.relatorio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.relatorio-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    box-shadow: inset 0 0 0 1.5px #27C97B;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #27C97B;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #27C97B;
+    background-color: white;
+  }
+
+  .btn-principal {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    background-color: #27C97B;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn-principal a {
+    width: 100%;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-principal :hover {
+    color: #27C97B;
+    background-color: white;
+    box-shadow: inset 0 0 0 1.5px #27C97B;
+    border-radius: 10px;
+}
+
+.descricao-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descricao-imagem img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.relatorio-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.relatorio-descricao h1 {
+    color: #27C97B;
+    padding-bottom: 15px;
+}
+
+.relatorio-descricao p {
+    margin: 10px 0;
+}
+
+.footer-name {
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .banner {
+        margin: 0;
+    }
+
+    .relatorio {
+        flex-direction: row;
+    }
+
+    .relatorio-form {
+        margin-left: 20px;
+        width: 40%;
+    }
+
+    .descricao-imagem {
+        width: 60%;
+    }
+
+    .descricao-imagem img {
+        width: 60%;
+    }
+
+    .relatorio-descricao {
+        padding: 10px;
+    }
+
+    .btn-principal {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .relatorio-form {
+        width: 50%;
+    }
+
+    .descricao-imagem {
+        width: 50%;
+    }
+    
+    .descricao-imagem img {
+        width: 50%;
+    }
+
+    .btn-principal {
+        width: 30%;
+    }
+
+    .relatorio-descricao {
+        padding: 15px;
+    }
+    .descricao-principal p {
+        font-size: 15pt;
+        padding-bottom: 10px;
+    }
+
+    label {
+        font-size: 14pt;
+    }
+}
