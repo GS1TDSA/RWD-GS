@@ -2,10 +2,16 @@
 .banner {
     width: 100%;
     text-align: center;
-    background-color: #27C97B;
-    color: white;
+    background-color: var(--green);
+    color: var(--white);
     padding: 20px 0;
     margin-top: 20px;
+}
+
+:root {
+    --green: #27C97B;
+    --blue-button: #5181DD;
+    --white: #ffffff;
 }
 
 .descricao-principal {
@@ -41,7 +47,7 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
-    box-shadow: inset 0 0 0 1.5px #27C97B;
+    box-shadow: inset 0 0 0 1.5px var(--green);
     padding: 30px;
     border-radius: 10px;
     margin-top: 20px;
@@ -58,14 +64,14 @@
   label {
     font-weight: bold;
     margin-bottom: 10px;
-    color: #27C97B;
+    color: var(--green);
   }
   
   select {
     padding: 0.5rem;
     border-radius: 4px;
-    border: 1px solid #27C97B;
-    background-color: white;
+    border: 1px solid var(--green);
+    background-color: var(--white);
   }
 
   .btn-principal {
@@ -75,7 +81,7 @@
     justify-content: center;
     text-align: center;
     width: 40%;
-    background-color: #27C97B;
+    background-color: var(--green);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -84,13 +90,13 @@
     width: 100%;
     padding: 20px 0;
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .btn-principal :hover {
-    color: #27C97B;
-    background-color: white;
-    box-shadow: inset 0 0 0 1.5px #27C97B;
+    color: var(--green);
+    background-color: var(--white);
+    box-shadow: inset 0 0 0 1.5px var(--green);
     border-radius: 10px;
 }
 
@@ -118,7 +124,7 @@
 }
 
 .relatorio-descricao h1 {
-    color: #27C97B;
+    color: var(--green);
     padding-bottom: 15px;
 }
 
