@@ -1,7 +1,15 @@
+
+/*Estilização do Menu de navegação de todas as páginas*/
 * {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+:root {
+    --green: #27C97B;
+    --blue-button: #5181DD;
+    --white: #ffffff;
 }
 
 body {
@@ -14,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 .logo {
@@ -42,20 +50,20 @@ body {
 .btn-menu {
     width: 100%;
     display: flex;
-    background-color: #27C97B;
+    background-color: var(--green);
 }
 
 .btn-menu a {
     padding: 20px 0;
     width: 100%;
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
 }
 
 .btn-menu :hover{
     width: 100%;
-    background-color: #ffffff;
-    color: #27C97B;
+    background-color: var(--white);
+    color: var(--green);
     text-decoration: none;
 }
 
@@ -73,8 +81,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #27C97B;
-    color: #fff;
+    background-color: var(--green);
+    color: var(--white);
     text-align: center;
 }
 
@@ -103,7 +111,7 @@ footer p {
 
     .btn-menu {
         width: 15%;
-        background-color: white;
+        background-color: var(--white);
     }
 
     .btn-menu a {
@@ -112,12 +120,8 @@ footer p {
     }
 
     .btn-menu :hover{
-        background-color: #27C97B;
-        color: white;
+        background-color: var(--green);
+        color: var(--white);
         text-decoration: none;
     }
-}
-
-@media (min-width: 1200px) {
-
 }
