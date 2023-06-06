@@ -16,7 +16,7 @@ Como o contexto global de geografia física e social é muito amplo e de difíci
 
 ## Prototipação
 
-Você pode consultar aqui no [Figma](https://www.figma.com/file/0Vql1AFofBiRdCupQwnrq9/GLOBAL-SOLUTION?type=design&node-id=169-36&t=K3vu1R8Ye7C5GiP5-0) o nosso protótipo responsivo desenvolvido para Mobile, Tablet e Desktop.
+Você pode consultar aqui no [Figma](https://www.figma.com/file/0Vql1AFofBiRdCupQwnrq9/GLOBAL-SOLUTION?type=design&node-id=169-36&t=K3vu1R8Ye7C5GiP5-0) o nosso protótipo responsivo desenvolvido para Mobile (600px), Tablet (768px) e Desktop (1200px).
 
 
 ## Objetivos do projeto:
