@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /*Estilização do Menu de navegação de todas as páginas*/
 * {
@@ -14,6 +15,8 @@
 
 body {
     min-height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 /* Cabeçalho com logo */
@@ -58,6 +61,7 @@ body {
     width: 100%;
     color: var(--white);
     text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .btn-menu :hover{

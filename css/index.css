@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 /* Banner principal */
 .banner {
     background-image: url("../img/fotos-gs/home.jpeg");
@@ -29,12 +31,14 @@
 .descricao-texto h1 {
     padding-top: 20px;
     text-align: center;
-    color: var(--green); 
+    color: var(--green);
+    font-family: 'Noto Sans', sans-serif; 
 }
 
 .descricao-texto p {
     text-align: center;
     padding: 20px 40px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .descricao-imagem {
@@ -81,8 +85,13 @@
     font-size: 12pt;
 }
 
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .footer-name {
     margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 @media (min-width: 768px) {
