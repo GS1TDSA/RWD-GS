@@ -96,7 +96,7 @@ completo.
 * Angélica Melo [GitHub](https://github.com/AngelMelo12) / [Linkedin](https://www.linkedin.com/in/angelicamelodev/)
 * Ricardo Yuri [GitHub](https://github.com/ricardoyuuri) / [Linkedin](https://www.linkedin.com/in/ricardo-yuri/)
 * Eduardo Finardi [GitHub](https://github.com/EduardoFoncescaFinardi)
-* Matheus Roberto
+* Matheus Roberto [GitHub](https://github.com/matheusroberto04)
 
 
 
