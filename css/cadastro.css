@@ -79,6 +79,7 @@ label {
 input {
     padding: 0.5rem;
     border-radius: 4px;
+    height: 30px;
     border: 1px solid var(--green);
     background-color: var(--white);
 }

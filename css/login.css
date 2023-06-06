@@ -1,51 +1,29 @@
 /* Banner principal */
-.banner {
-    background-image: url("../img/fotos-gs/contato.jpeg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 300px;
-}
-
 :root {
     --green: #27C97B;
     --blue: #5181DD;
     --white: #ffffff;
 }
 
-.banner-descricao {
+.login {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    width: 60%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.banner-descricao h1 {
-    font-size: 40pt;
-    letter-spacing: 5px;
-    color: var(--white);
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .titulo {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 18pt;
-}
-
-.relatorio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.relatorio-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    align-self: flex-start;
+    margin-bottom: 30px;
 }
 
 .flex-form {
@@ -55,10 +33,10 @@
     width: 80%;
     box-shadow: inset 0 0 0 1.5px var(--green);
     padding: 30px;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
-  
+
 .form-group-double {
     display: flex;
     flex-direction: row;
@@ -82,26 +60,46 @@
     flex-direction: column;
     margin-bottom: 1rem;
 }
-  
+
+.link-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--green);
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+    background-color: var(--white);
+}
+
 label {
     font-weight: bold;
     margin-bottom: 10px;
+    display: flex;
+    padding-bottom: 10px;
 }
-  
+
 input {
     padding: 0.5rem;
     border-radius: 4px;
+    height: 50px;
     border: 1px solid var(--green);
     background-color: var(--white);
-    height: 40px;
-}
-
-textarea {
-    padding: 0.5rem;
-    border-radius: 4px;
-    border: 1px solid var(--green);
-    background-color: var(--white);
-    resize: none;
 }
 
 .btn-principal {
@@ -111,8 +109,7 @@ textarea {
     justify-content: center;
     text-align: center;
     width: 30%;
-    background-color: var(--blue);
-    margin-bottom: 20px;
+    background-color: var(--green);
     border-radius: 10px;
     font-size: 15pt;
 }
@@ -125,39 +122,15 @@ textarea {
 }
 
 .btn-principal :hover {
-    color: var(--blue);
+    color: var(--green);
     background-color: var(--white);
-    box-shadow: inset 0 0 0 1.5px var(--blue);
+    box-shadow: inset 0 0 0 1.5px var(--green);
     border-radius: 10px;
 }
 
-.descricao-imagem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.descricao-imagem img {
-    width: 30%;
-}
-
-.relatorio-descricao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.relatorio-descricao h1 {
-    color: var(--green);
-}
-
-.relatorio-descricao p {
-    margin: 10px 0;
+footer {
+    position: absolute;
+	bottom: 0;
 }
 
 .footer-name {
@@ -166,41 +139,36 @@ textarea {
 
 @media (min-width: 768px) {
 
-    .banner {
-        margin: 0;
-        background-size: cover;
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: var(--white);
+    }
+    
+    .logo {
+        max-width: 10%;
+        max-height: 10%;
+        margin: 10px 0;
     }
 
-    .relatorio {
-        flex-direction: row;
-    }
-
-    .descricao-imagem {
-        width: 60%;
-    }
-
-    .descricao-imagem img {
-        width: 60%;
+    .link {
+        font-size: 13pt;
     }
 }
 
 @media (min-width: 1200px) {
-    
-    .relatorio-form {
-        width: 50%;
+
+    .flex-form {
+        width: 40%;
     }
 
-    .descricao-imagem {
-        width: 50%;
+    label {
+        font-size: 14pt;
     }
     
-    .descricao-imagem img {
-        width: 50%;
-    }
-
-    .banner {
-        background-position: 0;
-        background-size: cover;
-        height: 400px;
+    .link {
+        font-size: 15pt;
     }
 }
